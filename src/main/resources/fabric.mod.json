@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "redtotem",
+  "version": "${version}",
+  "name": "Red Totem Warning",
+  "description": "Tints your screen red when you are not holding a Totem of Undying.",
+  "environment": "client",
+  "entrypoints": { "client": ["com.example.redtotem.RedTotemClient"] },
+  "depends": { "fabricloader": ">=0.18.0", "minecraft": "~1.21.11", "java": ">=21", "fabric-api": "*" }
+}
